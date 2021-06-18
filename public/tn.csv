@@ -1,0 +1,25 @@
+city,lat,lng,country,iso2,admin_name,capital,population,population_proper
+Tunis,36.8008,10.1800,Tunisia,TN,Tunis,primary,1200000,1200000
+Sfax,34.7500,10.7200,Tunisia,TN,Sfax,admin,453050,277278
+Sousse,35.8300,10.6250,Tunisia,TN,Sousse,admin,327004,164123
+Gabès,33.9004,10.1000,Tunisia,TN,Gabès,admin,219517,110075
+Kairouan,35.6804,10.1000,Tunisia,TN,Kairouan,admin,144522,119794
+Bizerte,37.2904,9.8550,Tunisia,TN,Bizerte,admin,139843,115268
+Gafsa,34.4204,8.7800,Tunisia,TN,Gafsa,admin,126803,81232
+Nabeul,36.4603,10.7300,Tunisia,TN,Nabeul,admin,115149,115149
+Ariana,36.8667,10.2000,Tunisia,TN,L’Ariana,admin,97687,97687
+Kasserine,35.1804,8.8300,Tunisia,TN,Kasserine,admin,81987,78158
+Monastir,35.7307,10.7673,Tunisia,TN,Monastir,admin,71546,41400
+Tataouine,33.0000,10.4667,Tunisia,TN,Tataouine,admin,62577,62577
+Medenine,33.4000,10.4167,Tunisia,TN,Médenine,admin,61705,61705
+Béja,36.7304,9.1900,Tunisia,TN,Béja,admin,59567,57233
+Jendouba,36.5000,8.7500,Tunisia,TN,Jendouba,admin,51408,51408
+El Kef,36.1826,8.7148,Tunisia,TN,Kef,admin,47979,36628
+Mahdia,35.4839,11.0409,Tunisia,TN,Mahdia,admin,45977,45977
+Sidi Bouzid,35.0167,9.5000,Tunisia,TN,Sidi Bouzid,admin,42098,42098
+Tozeur,33.9304,8.1300,Tunisia,TN,Tozeur,admin,39504,34943
+Siliana,36.0833,9.3833,Tunisia,TN,Siliana,admin,26960,26960
+Kebili,33.6900,8.9710,Tunisia,TN,Kébili,admin,19875,19875
+Zaghouan,36.4000,10.1470,Tunisia,TN,Zaghouan,admin,16911,16911
+Ben Arous,36.7545,10.2217,Tunisia,TN,Ben Arous,admin,,
+Manouba,36.8101,10.0956,Tunisia,TN,Manouba,admin,,
