@@ -1963,6 +1963,7 @@ textarea.form-control {
 
 .form-group {
   margin-bottom: 1rem;
+  
 }
 
 .form-text {
@@ -17308,7 +17309,7 @@ Copyright (c) 2015 Daniel Eden
 .card .card-header .card-title {
   color: #ffffff;
   font-weight: 100;
-     
+
 }
 
 .card .card-header .card-category {
@@ -17800,7 +17801,7 @@ Copyright (c) 2015 Daniel Eden
   color: #ffffff;
   margin-left: 20px;
   margin-top: 20px;
-  
+
 }
 
 .login-page .card-login .card-header .card-title {
@@ -17824,7 +17825,7 @@ Copyright (c) 2015 Daniel Eden
 
 .login-page .card-login .input-group:last-child {
   margin-bottom: 40px;
-  
+
 }
 
 .login-page .link {
@@ -17836,7 +17837,7 @@ Copyright (c) 2015 Daniel Eden
   padding: 0 0 65px;
   overflow: hidden;
   z-index: 1;
-  
+
 }
 
 .card-register .form-check {

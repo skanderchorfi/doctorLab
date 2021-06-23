@@ -3,6 +3,9 @@
 namespace App\Http\Controllers\Admin\Operations;
 
 use App\Models\User;
+use App\Notifications\AccountApprouvedNotification;
+use Illuminate\Notifications\Notification;
+use Illuminate\Support\Facades\Notification as FacadesNotification;
 use Illuminate\Support\Facades\Route;
 
 trait ApprouveOperation
@@ -47,11 +50,12 @@ trait ApprouveOperation
      * @return Response|\Illuminate\Http\RedirectResponse
      */
     public function approuve(int $id)
-    {
+    {   $user = User::find($id) ;
         User::find($id)->update([
             'active' => true
         ]);
 
+        FacadesNotification:: send($user, new AccountApprouvedNotification());
         return redirect()->to('/admin/user');
     }
 }

@@ -21,7 +21,7 @@
             <div class="dropdown-menu dropdown-menu-right pt-0">
                 @foreach(auth()->user()->unreadNotifications as $notification)
                     <a class="dropdown-item" href="{{ route('home', ['notification' => $notification->id]) }}">
-                        {{ $notification->data['message'] }}
+                        {{ $notification->data['message'] }} {{ $notification->created_at->format('Y-m-d H:i') }}
                     </a>
                 @endforeach
             </div>

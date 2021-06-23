@@ -33,7 +33,7 @@
                         @foreach(auth()->user()->unreadNotifications as $notification)
                             <li class="nav-link">
                                 <a class="dropdown-item" href="{{ route('home', ['notification' => $notification->id]) }}">
-                                    {{ $notification->data['message'] }}
+                                    {{ $notification->created_at->format('F, d D H:i a') }}: {{ $notification->data['message'] }}
                                 </a>
                             </li>
                         @endforeach
