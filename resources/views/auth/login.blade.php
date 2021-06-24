@@ -21,6 +21,30 @@
                 </div>
             </div>
         @endif
+
+        <section id="hero" class="d-flex align-items-center">
+            @if(session('error'))
+              <div class="container">
+                  <div class="row justify-content-center">
+                      <div class="col-md-10">
+                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                            {{ session('error') }}
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+            @endif
+
+            <div class="container">
+                <h1>Bienvenue à DoctorLab</h1>
+                <h2>Plateforme de visualisation des données générées par le système de suivi de diabète </h2>
+              </div>
+          </section><!-- End Hero -->
+
+
     <div class="col-lg-4 col-md-6 ml-auto mr-auto">
         <form class="form" method="post" action="{{ route('login') }}">
             @csrf

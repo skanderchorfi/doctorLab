@@ -50,7 +50,7 @@ class LoginController extends Controller
     {
         if ($user->active == false) {
             $this->logout($request);
-            return redirect()->to('/')
+            return redirect()->to('/login')
                 ->with('error', 'Compte non activé');
         }
     }
